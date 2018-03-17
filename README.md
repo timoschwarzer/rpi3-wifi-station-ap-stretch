@@ -135,7 +135,7 @@ Edit `/etc/rc.local` and add the following lines just before "exit 0":
     rm -f /var/run/wpa_supplicant/wlan0
     ifup wlan0
 
-## Bridge AP to cient side
+## Bridge AP to client side
 
 This is optional.  If you do this step, then someone connected to the AP side can browse the internet through the client side.
 
