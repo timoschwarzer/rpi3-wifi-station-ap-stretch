@@ -147,4 +147,9 @@ This is optional.  If you do this step, then someone connected to the AP side ca
 That's it, you should be good to go.  You should not have needed to reboot your Pi, but if you do then everything you did will
 remain in place and functional.
 
+## Make the system read-only
 
+1. Run this: https://learn.adafruit.com/read-only-raspberry-pi/overview
+2. **Don't reboot!**
+3. `rm -rf /var/lib/misc`
+4. `ln -s /tmp /var/lib/misc`
